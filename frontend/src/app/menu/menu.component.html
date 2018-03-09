@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>
+    <p>Some text that represents "Me"...</p>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Grãos</h3><br>
+  <div class="row">
+
+    <div class="col-sm-3" routerLink=active>
+      <!--<p>Some text..</p>-->
+      <img src="http://blog.mundodosoleos.com/wp-content/uploads/2016/12/Arroz-640x360.jpg" class="img-responsive" style="width:100%" alt="Image" routerLink="/carrinho">
+        <!--<li [ngClass]="{active: activeRoute('/carrinho')}"><a routerLink="carrinho">Inserir</a></li>-->
+    </div>
+    <div class="col-sm-3">
+      <!--<p>Some text..</p><!-->
+      <img src="https://i1.wp.com/rocknbreja.com.br/wp-content/uploads/2017/11/malte-cevada.jpg?fit=768%2C512" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <!--<p>Some text..</p>-->
+      <img src="https://assets.xtechcommerce.com/uploads/images/medium/aef36ec29ef71f031a91a462526b44b5.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <!--<p>Some text..</p>-->
+      <img src="http://grtrade.com.br/wp-content/uploads/2016/02/FEIJ%C3%83O-PRETO-1%C2%AA-SAFRA-NO-PARAN%C3%81.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Arroz branco</p>
+      <p>R$18,49</p>
+      <img src="http://www.opopularjm.com.br/wp-content/uploads/2017/10/milho-ilustra%C3%A7%C3%A3o.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Milho</p>
+      <p>R$44,15</p>
+    </div>
+    <div class="col-sm-3">
+      <p>Cevada</p>
+      <p>R$18,68</p>
+      <img src="https://thumbs.dreamstime.com/b/semente-de-girassol-no-saco-no-branco-63903587.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Girasol</p>
+      <p>R$48,40</p>
+    </div>
+    <div class="col-sm-3">
+      <p>Feijão carioca</p>
+      <p>R$22,00</p>
+      <img src="http://herborisa.com.br/blog/wp-content/uploads/2016/03/Herborisa-Como-fazer-a-reposicao-hormonal-com-ajuda-da-soja.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Soja</p>
+      <p>R$35,00</p>
+    </div>
+    <div class="col-sm-3">
+      <p>Feijão branco</p>
+      <p>R$28,65</p>
+      <img src="https://www.techexplorist.com/wp-content/uploads/2016/10/Wheat-Proteins-696x451.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Trigo</p>
+      <p>R$22,10</p>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
