@@ -8,7 +8,7 @@ import { Carrinho } from './carrinho';
 @Injectable()
 export class CarrinhoService {
 
-  private carrinhosUrl = 'http://localhost:4200/api/cerveja';
+  private carrinhosUrl = 'http://localhost:4200/api/graos';
 
   constructor(private http: Http) { }
 

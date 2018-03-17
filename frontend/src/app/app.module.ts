@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
+import { PrincipalComponent } from './principal/principal.component';
 import { CarrinhoService } from './carrinho/carrinho.service';
 import { CadastroComponent } from './cadastro/cadastro.component';
 
@@ -21,6 +22,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
     AppComponent,
     MenuComponent,
     CarrinhoComponent,
+    PrincipalComponent,
     CadastroComponent
   ],
   imports: [
