@@ -10,6 +10,8 @@ import { PrincipalComponent } from './principal/principal.component';
 import { CarrinhoService } from './carrinho/carrinho.service';
 import { CadastroComponent } from './cadastro/cadastro.component';
 
+import { LoginComponent } from './login/login.component';
+
 import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app.routes';
 //import { appRoutes } from './app.routes';
@@ -23,7 +25,8 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
     MenuComponent,
     CarrinhoComponent,
     PrincipalComponent,
-    CadastroComponent
+    CadastroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
