@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: farinhadigital
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: G
+Built-By: Jhonatan
 Implementation-Vendor-Id: br.univel
-Build-Jdk: 1.8.0_112
+Build-Jdk: 1.8.0_151
 Implementation-URL: http://projects.spring.io/spring-boot/farinhadigit
  al/
 Created-By: Maven Integration for Eclipse
